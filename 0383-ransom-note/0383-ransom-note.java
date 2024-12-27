@@ -11,7 +11,7 @@ class Solution {
             }
         }
         
-        System.out.println(map);
+        
         for(char i: ransomNote.toCharArray()){
             if(map.containsKey(i) ){
                 map.put(i,map.get(i) - 1);
@@ -24,7 +24,7 @@ class Solution {
             }
         }
         
-        System.out.println(map);
+       
         
        
         
